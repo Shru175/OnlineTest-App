@@ -1,0 +1,46 @@
+[{
+		"id": 1,
+		"Question": "Which of the scripting of JSP not putting content into service method of the converted servlet?",
+		"Answers": [
+			"Declarations",
+			"Scriptlets",
+			"Expressions",
+			"none of the above"
+			
+		],
+		"CorrectAnswer": "Expressions"
+	},
+	{
+		"id": 2,
+		"Question": "The difference between Servlets and JSP is the",
+		"Answers": [
+			"translation",
+			"compilation",
+			"syntax",
+			"Both A & B"
+		],
+		"CorrectAnswer": "syntax"
+	},
+	{
+		"id": 3,
+		"Question": "What is the full form of MEAN",
+		"Answers": [
+			"Mongo Express Angular Node",
+			"Typescript",
+			"Javascript",
+			"I dont know"
+		],
+		"CorrectAnswer": "Mongo Express Angular Node"
+	},
+	{
+		"id": 4,
+		"Question": "Node js is a client or server side script",
+		"Answers": [
+			"client",
+			"none",
+			"Server",
+			"Both"
+		],
+		"CorrectAnswer": "client"
+	}
+]

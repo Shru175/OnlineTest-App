@@ -1,0 +1,161 @@
+<div class="container">
+     <form [formGroup]="jQuestionForm" >
+    <table class="table table-bordered">
+        <tr>
+        <th class="header">
+           Question ID
+        </th>
+        <th class="header">
+            Question
+        </th>
+        <th class="header">
+            Options
+        </th>
+        <th class="header">
+            Valid Answer
+        </th>
+    
+    </tr>
+    <!--<tr *ngFor="let u of QuestionData">-->
+       <tr> 
+        <td>
+           {{indQ1.id}} 
+           </td>
+           <td>{{indQ1.Question}}
+        </td>
+        <td><div class="form-group form-check">
+        
+        <!--<div *ngFor="let k of Answer">-->
+            
+        <input type="radio" value="{{indQ1.Answers[0]}}" formControlName="answer1" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ1.Answers[0]}}">{{indQ1.Answers[0]}}</label>
+        <br>
+        <input type="radio" value="{{indQ1.Answers[1]}}" formControlName="answer1" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ1.Answers[1]}}">{{indQ1.Answers[1]}}</label>
+    
+        <br>
+        <input type="radio" value="{{indQ1.Answers[2]}}" formControlName="answer1" class="custom-control-input"  >
+         <label class="custom-control-label" for="{{indQ1.Answers[2]}}">{{indQ1.Answers[2]}}</label>
+         <br>
+        <input type="radio" value="{{indQ1.Answers[3]}}" formControlname="answer1" class="custom-control-input" >
+        <label class="custom-control-label" for="{{indQ1.Answers[3]}}">{{indQ1.Answers[3]}}</label>  
+    </div>
+        <!--</div>-->
+    </td>
+    <td>
+        <div *ngIf="chkFlag" class="ans">
+            {{correctAns1}}
+        </div>
+    </td>
+    
+    
+    </tr>
+    <tr> 
+        <td>
+           {{indQ2.id}} 
+           </td>
+           <td>{{indQ2.Question}}
+        </td>
+        <td><div class="form-group form-check">
+        
+        <!--<div *ngFor="let k of Answer">-->
+            
+        <input type="radio" value="{{indQ2.Answers[0]}}" formControlName="answer2" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ2.Answers[0]}}">{{indQ2.Answers[0]}}</label>
+        <br>
+        <input type="radio" value="{{indQ2.Answers[1]}}" formControlName="answer2" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ2.Answers[1]}}">{{indQ2.Answers[1]}}</label>
+    
+        <br>
+        <input type="radio" value="{{indQ2.Answers[2]}}" formControlName="answer2" class="custom-control-input"  >
+         <label class="custom-control-label" for="{{indQ2.Answers[2]}}">{{indQ2.Answers[2]}}</label>
+         <br>
+        <input type="radio" value="{{indQ2.Answers[3]}}" formControlname="answer2" class="custom-control-input" >
+        <label class="custom-control-label" for="{{indQ2.Answers[3]}}">{{indQ2.Answers[3]}}</label>  
+    </div>
+        <!--</div>-->
+    </td>
+    <td>
+        <div *ngIf="chkFlag" class="ans">
+            {{correctAns2}}
+        </div>
+    </td>
+    
+    
+    </tr>
+    <tr> 
+        <td>
+           {{indQ3.id}} 
+           </td>
+           <td>{{indQ3.Question}}
+        </td>
+        <td><div class="form-group form-check">
+      
+        <!--<div *ngFor="let k of Answer">-->
+            
+        <input type="radio" value="{{indQ3.Answers[0]}}" formControlName="answer3" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ3.Answers[0]}}">{{indQ3.Answers[0]}}</label>
+        <br>
+        <input type="radio" value="{{indQ3.Answers[1]}}" formControlName="answer3" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ3.Answers[1]}}">{{indQ3.Answers[1]}}</label>
+    
+        <br>
+        <input type="radio" value="{{indQ3.Answers[2]}}" formControlName="answer3" class="custom-control-input"  >
+         <label class="custom-control-label" for="{{indQ3.Answers[2]}}">{{indQ3.Answers[2]}}</label>
+         <br>
+        <input type="radio" value="{{indQ3.Answers[3]}}" formControlname="answer3" class="custom-control-input" >
+        <label class="custom-control-label" for="{{indQ3.Answers[3]}}">{{indQ3.Answers[3]}}</label>  
+    </div>
+        <!--</div>-->
+    </td>
+    <td>
+        <div *ngIf="chkFlag" class="ans">
+           {{correctAns3}}
+        </div>
+      
+    </td>
+    
+    
+    </tr>
+    <tr> 
+        <td>
+           {{indQ4.id}} 
+           </td>
+           <td>{{indQ4.Question}}
+        </td>
+        <td><div class="form-group form-check">
+      <!--<div *ngFor="let k of Answer">-->
+            
+        <input type="radio" value="{{indQ4.Answers[0]}}" formControlName="answer4" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ4.Answers[0]}}">{{indQ4.Answers[0]}}</label>
+        <br>
+        <input type="radio" value="{{indQ4.Answers[1]}}" formControlName="answer4" class="custom-control-input" >
+         <label class="custom-control-label" for="{{indQ4.Answers[1]}}">{{indQ4.Answers[1]}}</label>
+    
+        <br>
+        <input type="radio" value="{{indQ4.Answers[2]}}" formControlName="answer4" class="custom-control-input"  >
+         <label class="custom-control-label" for="{{indQ4.Answers[2]}}">{{indQ4.Answers[2]}}</label>
+         <br>
+        <input type="radio" value="{{indQ4.Answers[3]}}" formControlname="answer4" class="custom-control-input" >
+        <label class="custom-control-label" for="{{indQ4.Answers[3]}}">{{indQ4.Answers[3]}}</label>  
+    </div>
+        <!--</div>-->
+    </td>
+    <td>
+        <div *ngIf="chkFlag" class="ans">
+             {{correctAns4}}
+        </div>
+    </td>
+    
+    
+    </tr>
+    
+    </table>
+    <div class="form-group">
+        <button class="btn btn-primary" (click)="evaluate()">Submit Answers</button>
+    </div>
+    <span *ngIf="chkFlag" style="background-color: brown;">
+       Result: {{result}}/4
+    </span>
+    </form>
+    </div>

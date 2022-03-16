@@ -1,0 +1,10 @@
+.hpage{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(6, 6, 15, 0.678);
+    color:rgb(219, 225, 236)
+}
+.topLine{
+    background-color:rgba(6, 6, 15, 0.678);
+    color:rgb(219, 225, 236);
+    align-content: center;
+}

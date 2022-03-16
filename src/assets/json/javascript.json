@@ -1,0 +1,46 @@
+[{
+		"id": 1,
+		"Question": "Which of the scripting of JSP not putting content into service method of the converted servlet?",
+		"Answers": [
+			"Declarations",
+			"Scriptlets",
+			"Expressions",
+			"none of the above"
+			
+		],
+		"CorrectAnswer": "Expressions"
+	},
+	{
+		"id": 2,
+		"Question": "The difference between Servlets and JSP is the",
+		"Answers": [
+			"translation",
+			"compilation",
+			"syntax",
+			"Both A & B"
+		],
+		"CorrectAnswer": "syntax"
+	},
+	{
+		"id": 3,
+		"Question": "What is the full form of JSP",
+		"Answers": [
+			"Java Server Pages",
+			"Java Side Pages",
+			"Java Server Phase",
+			"none"
+		],
+		"CorrectAnswer": "Java Server Pages"
+	},
+	{
+		"id": 4,
+		"Question": "Which JSP Action tags is used to include the content of another resource",
+		"Answers": [
+			"include",
+			"forward",
+			"plugin",
+			"none"
+		],
+		"CorrectAnswer": "include"
+	}
+]
